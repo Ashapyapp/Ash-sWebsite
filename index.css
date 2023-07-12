@@ -6,7 +6,13 @@ header {
   background-position: center 13%;
 }
 
+@font-face {
+  font-family: "HackFont";
+  src: url(./HackNerdFontMono-Regular.ttf;);
+}
+
 header h1 {
   text-align: right;
   color: white;
+  font-family: "Hack", sans-serif;
 }
