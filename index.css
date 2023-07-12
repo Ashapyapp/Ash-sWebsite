@@ -1,18 +1,18 @@
 header {
-  background-image: url(./headshot.jpg);
+  background-image: url(./images/HeadShot.jpg);
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
-  background-size: cover;
-  background-position: center 13%;
+  background-size: 700px auto;
+  background-position: right 13%;
+  background-repeat: no-repeat;
 }
-
 @font-face {
   font-family: "HackFont";
-  src: url(./HackNerdFontMono-Regular.ttf;);
+  src: url(./Font/AllertaStencil-Regular.ttf);
 }
 
 header h1 {
   text-align: right;
   color: white;
-  font-family: "Hack", sans-serif;
+  font-family: "HackFont", sans-serif;
 }
