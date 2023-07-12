@@ -1,8 +1,8 @@
 header {
-  background-image: url(./images/HeadShot.jpg);
+  background-image: url(./images/blobs-d.svg);
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
-  background-size: 700px auto;
+  background-size: 1200px auto;
   background-position: right 13%;
   background-repeat: no-repeat;
 }
@@ -13,6 +13,6 @@ header {
 
 header h1 {
   text-align: right;
-  color: white;
+  color: rgb(255, 226, 226);
   font-family: "HackFont", sans-serif;
 }
