@@ -1,0 +1,12 @@
+header {
+  background-image: url(./headshot.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center 13%;
+}
+
+header h1 {
+  text-align: right;
+  color: white;
+}
