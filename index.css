@@ -7,7 +7,7 @@ header {
   background-repeat: no-repeat;
 }
 @font-face {
-  font-family: "HackFont";
+  font-family: "AllertaFont";
   src: url(./Font/AllertaStencil-Regular.ttf);
 }
 
@@ -19,7 +19,7 @@ header {
 header h1 {
   text-align: right;
   color: rgb(255, 226, 226);
-  font-family: "HackFont", sans-serif;
+  font-family: "AllertaFont", sans-serif;
 }
 
 p,
