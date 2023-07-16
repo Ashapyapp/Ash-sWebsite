@@ -1,0 +1,19 @@
+/* Global styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  color: white;
+  border-right: 2px solid white;
+}
