@@ -212,7 +212,30 @@ nav#social-media a:hover {
 }
 
 @media (max-width: 350px) {
-  body {
-    background-color: red;
+  .test h1 {
+    color: red;
+  }
+  header {
+    /* background-image: url(./images/drool-d.svg); */
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* background-blend-mode: multiply; */
+    background-size: 400px;
+    /* background-position: right; */
+    /* margin-bottom: 0px;*/
+  }
+
+  header a {
+    font-size: 40px;
+    /* font-family: "Poppings", sans-serif; */
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration: none; */
+    line-height: 35px;
+    /* transition: text-shadow 0.2s ease-in-out; */
+  }
+
+  #bio h2 {
+    text-align: center;
   }
 }
