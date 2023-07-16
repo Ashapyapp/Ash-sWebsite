@@ -212,6 +212,7 @@ nav#social-media a:hover {
 }
 
 @media (max-width: 500px) {
+  
   .test h1 {
     color: red;
   }
@@ -250,5 +251,7 @@ nav#social-media a:hover {
     text-align: center;
     padding: 0px;
     margin: 0px;
+
+  
   }
 }
