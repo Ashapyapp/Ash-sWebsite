@@ -211,8 +211,8 @@ nav#social-media a:hover {
   background-color: rgba(0, 0, 0, 0);
 }
 
-@media (width <= 350px) {
+@media (max-width: 350px) {
   body {
-    background-color: blue;
+    background-color: red;
   }
 }
