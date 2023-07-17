@@ -9,6 +9,8 @@ body {
   background-repeat: no-repeat;
   padding: 0;
   margin: 0;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
 }
 
 header {
@@ -211,6 +213,10 @@ nav#social-media a:hover {
   background-color: rgba(0, 0, 0, 0);
 }
 
+li{
+  line-height: 23px;
+}
+
 @media (max-width: 500px) {
   
   .test h1 {
@@ -260,3 +266,4 @@ nav#social-media a:hover {
 /* Todo
 --> The background scrolls with you
   Change it a way that remains constant.*/
+/* done */
