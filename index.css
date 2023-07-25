@@ -118,12 +118,19 @@ h1.heading {
 #lang a {
   color: rgb(255, 255, 255);
   margin-left: 0.2px;
+  /* text-decoration-line: none; */
+  /* font-weight: bold; */
+  /* font-style: italic; */
 }
 
 #typing a:hover,
 #lang a:hover {
   color: yellow;
   font-weight: bold;
+}
+
+#typing a:active{
+  color: red;
 }
 
 p {
@@ -217,6 +224,10 @@ li{
   line-height: 23px;
 }
 
+/* a:active{
+  color: red;
+} */
+
 @media (max-width: 500px) {
   
   .test h1 {
@@ -259,5 +270,41 @@ li{
     margin: 0px;
 
   
+  }
+}
+
+/* Gradient bar with animation */
+/* Gradient bar with slower animation and transparency */
+hr {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, rgba(255, 138, 0, 0.7), rgba(229, 46, 113, 0.7), rgba(92, 37, 141, 0.7));
+  background-size: 200% 100%;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+/* Keyframes for the gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Wavy line with slower animation */
+hr.wavy:before {
+  /* ... */
+  animation: wavyAnimation 2s linear infinite;
+}
+
+/* Keyframes for the wavy animation */
+@keyframes wavyAnimation {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 200% 50%;
   }
 }
