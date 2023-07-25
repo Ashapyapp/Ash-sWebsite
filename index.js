@@ -1,7 +1,6 @@
-// JavaScript code for triggering the typewriting animation
 window.onload = function() {
   var typewriterElement = document.querySelector('.typewriter');
-  typewriterElement.innerHTML = ''; // Clear the text initially
+  typewriterElement.innerHTML = '';
 
   var text = "Welcome to my Website!";
   var charIndex = 0;
