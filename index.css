@@ -329,3 +329,27 @@ hr.wavy:before {
   transform: translateY(-20px);
   animation: fadeInAnimation 1s forwards;
 }
+
+#typing,
+#lang,
+.cloud {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 1px;
+}
+
+hr {
+  padding: 0px;
+}
+
+h1.heading {
+  text-align: center;
+}
+
+.heading-div {
+  background-color: rgba(255, 255, 0, 0.2);
+  background-color: rgba(255, 99, 71, 0.2);
+  padding: 12px;
+}
+
+/* will see about this later 
+ */
