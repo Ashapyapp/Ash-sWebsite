@@ -276,6 +276,13 @@ li {
   .TIU {
     text-align: left;
   }
+
+  .certificate {
+    display: block;
+    margin: 0 auto; /* This will center the image horizontally */
+    max-height: 150px; /* Adjust the max height as needed */
+    width: auto; /* Let the width adjust proportionally */
+  }
 }
 
 /* Gradient bar with animation */
@@ -358,4 +365,4 @@ h1.heading {
 }
 
 /* TODO
-The feels boring. Maybe add some animations and some other things like color changes or some animated background to make it more readable. ==  */
+/* * Fix the way like it resizes for every time i change the size of the window */
